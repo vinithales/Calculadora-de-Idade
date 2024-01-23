@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Idade</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            <img src = "happy.svg" id="calculator" />
+            <h1>Calcular Idade</h1>
+        </div>
+        <div id="content-1">
+            <label for="dateInput" class="title">Data de nascimento</label>
+            <input id="dateInput1" type="date"/>
+    
+            <label for="dateInput2" class="title">Data de comparação</label>
+            <input id="dateInput2" type="date"/>
+            <button id="botao"   onclick="pegarDatas()">Calcular</button>
+        </div>
+        <div id="content-2"></div>
+
+
+    </div>
+   <script src="js/calendario.js"></script>
+</body>
+</html>

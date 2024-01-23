@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(51, 49, 49) ;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+#container{
+    width: 400px;
+    min-height: 400px;
+    padding: 0 10px 0 10px;
+    background-color: rgb(223, 151, 17);
+    border-radius: 15%;
+    border: 8px solid rgb(131, 100, 43);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#content-1{
+    margin: 20px 20px 5px 20px;
+    font-size: 25px;
+}
+#container h1{
+    margin:0;
+    margin-top: 15px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+#calculator{
+    padding-top: 18px;
+    width: 20px;
+    height: 32px;
+    
+}
+
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+#dateInput1, #dateInput2{
+    border-radius: 10px;
+    padding: 15px 0 15px 15px;
+    width: 100%;
+    border: 0;
+    Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    color: rgb(131, 87, 7);
+    background-color: white;
+    font-size: 30px; 
+    box-sizing: border-box;  
+    outline: none;
+
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+   
+    padding: 5px; 
+    border-radius: 5px; 
+    cursor: pointer;
+    
+}
+
+button{
+    width: 140px;
+    height: 60px;
+    font-size: 20px;
+    background-color: rgb(167, 119, 18);
+    color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 32%;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+    
+}
+
+
+button:hover {
+    transform: scale(1.1); 
+}
+
+#content-2{
+    overflow: auto;
+    flex-grow: 1;
+    margin: 0;
+    
+}
+
+
+#content-2, ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
